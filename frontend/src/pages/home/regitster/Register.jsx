@@ -16,7 +16,7 @@ const Register = () => {
     // AFTER CLICK BUTTON ETEORR BECOME FALSE FOR NEW USER
     setError(false);
     try {
-      const res = await axios.post("/auth/register", {
+      const res = await axios.post("https://blog-app-t4i9.onrender.com/backend/auth/register", {
         username,
         email,
         password,
