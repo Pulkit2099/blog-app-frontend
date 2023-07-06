@@ -22,7 +22,7 @@ const Register = () => {
         password,
       });
       //IF THERE IS RES DATA THEN SEND TO LOGIN PAGE
-      res.data && window.location.replace("/login");
+      res.data && window.location.replace("https://mernfrontend-kcvt.onrender.com/login");
     } catch (err) {
       setError(true);
     }
