@@ -28,7 +28,7 @@ const Write = () => {
     }
     try {
       const res = await axios.post("https://blog-app-t4i9.onrender.com/backend/posts", newPost);
-      window.location.replace("https://blog-app-t4i9.onrender.com/backend/post/" + res.data._id);
+      window.location.replace("/post/" + res.data._id);
     } catch (err) {}
   };
   return (
