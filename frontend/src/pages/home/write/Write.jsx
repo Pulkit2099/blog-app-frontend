@@ -23,7 +23,7 @@ const Write = () => {
       data.append("file", file);
       newPost.photo = filename;
       try {
-        await axios.post("/upload", data);
+        await axios.post("https://blog-app-t4i9.onrender.com/backend/upload", data);
       } catch (err) {}
     }
     try {
