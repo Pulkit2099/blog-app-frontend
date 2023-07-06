@@ -38,5 +38,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:5000/backend/"
+  "proxy": "https://blog-app-t4i9.onrender.com/backend/"
 }
